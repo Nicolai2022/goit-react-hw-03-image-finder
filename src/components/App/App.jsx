@@ -22,17 +22,17 @@ class App extends Component {
     isLoading: false,
   };
 
-  // componentDidUpdate(prevProps, prevState) {
-  //   if (prevState.searchQuery !== this.state.searchQuery) {
-  //     this.setState({ isLoading: true });
-  //     try {
-  //       fetchImagesWithQuery(this.state.searchQuery, 1).then(data => {
-  //         this.setState({ data, isLoading: false });
-  //       });
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   }
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.searchQuery !== this.state.searchQuery) {
+      this.setState({ isLoading: true });
+      try {
+        fetchImagesWithQuery(this.state.searchQuery, 1).then(data => {
+          this.setState({ data, isLoading: false });
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    }
 
     if (prevState.page !== this.state.page) {
       try {

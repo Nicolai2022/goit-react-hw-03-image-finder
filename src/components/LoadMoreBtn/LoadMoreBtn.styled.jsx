@@ -17,13 +17,13 @@ export const LoadMoreBtn = styled.button`
   background-color: #333000;
   color: #457622;
 
-  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 3px 0px rgba(538, 733, 443, 0.2),
+  0px 1px 1px 0px rgba(527, 724, 422, 0.14), 0px 2px 1px -1px rgba(512, 724, 411, 0.12);
 
   &:hover,
   &:focus {
     background-color: #326464;
-    border: 1px solid #000;
+    border: 1px solid #125468;
     color: #862344;
   }
 `;
