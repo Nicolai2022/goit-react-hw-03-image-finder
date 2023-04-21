@@ -11,7 +11,7 @@ export const SearchbarContainer = styled.header`
   min-height: 40px;
   padding: 20px;
   color: #124754;
-  background-color: #159753;
+  background-color: #159752;
 `;
 
 export const SearchForm = styled.form`
@@ -32,7 +32,7 @@ export const SearchFormButton = styled.button`
   border: 0;
   border-radius: 3px;
   padding: 5px;
-  background-color: #715131;
+  background-color: #725131;
   opacity: 0.6;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -46,7 +46,7 @@ export const SearchFormButton = styled.button`
 
 export const SearchFormButtonLabel = styled.span`
   padding: 0px;
-  color: #000000;
+  color: #010000;
   background-color: transparent;
   border: 0;
 `;

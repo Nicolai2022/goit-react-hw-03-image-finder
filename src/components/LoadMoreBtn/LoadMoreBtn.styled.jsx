@@ -24,6 +24,6 @@ export const LoadMoreBtn = styled.button`
   &:focus {
     background-color: #326464;
     border: 1px solid #125468;
-    color: #862344;
+    color: #862343;
   }
 `;
