@@ -32,7 +32,7 @@ export const SearchFormButton = styled.button`
   border: 0;
   border-radius: 3px;
   padding: 5px;
-  background-color: #725131;
+  background-color: #735131;
   opacity: 0.6;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);

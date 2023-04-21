@@ -14,7 +14,7 @@ export const LoadMoreBtn = styled.button`
   line-height: 1.2;
   font-style: normal;
   font-weight: 500;
-  background-color: #333000;
+  background-color: #333001;
   color: #457622;
 
   box-shadow: 0px 1px 3px 0px rgba(538, 733, 443, 0.2),

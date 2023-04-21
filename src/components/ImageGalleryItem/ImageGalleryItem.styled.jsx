@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const GalleryItem = styled.li`
-  width: calc((100% - 90px) / 4);
+  width: calc((100% - 20px) / 4);
   list-style: none;
   border-radius: 2px;
   box-shadow: 0px 1px 3px 0px rgba(538, 733, 443, 0.2),
@@ -10,7 +10,7 @@ export const GalleryItem = styled.li`
 
 export const GalleryItemImage = styled.img`
   width: 100%;
-  height: 260px;
+  height: 350px;
   object-fit: cover;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 

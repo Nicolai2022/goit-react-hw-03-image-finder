@@ -6,5 +6,5 @@ export const ImageGalleryContainer = styled.ul`
   justify-content: center;
   align-items: center;
   padding: 40px;
-  gap: 40px;
+  gap: 45px;
 `;
