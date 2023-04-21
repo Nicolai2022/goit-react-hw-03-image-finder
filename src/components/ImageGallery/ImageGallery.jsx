@@ -12,15 +12,15 @@ function ImageGallery({ data, modalClick }) {
   );
 }
 
-ImageGallery.propTypes = {
-  data: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      webformatURL: PropTypes.string.isRequired,
-      largeImageURL: PropTypes.string.isRequired,
-    })
-  ).isRequired,
-  modalClick: PropTypes.func.isRequired,
-};
+// ImageGallery.propTypes = {
+//   data: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.number.isRequired,
+//       webformatURL: PropTypes.string.isRequired,
+//       largeImageURL: PropTypes.string.isRequired,
+//     })
+//   ).isRequired,
+//   modalClick: PropTypes.func.isRequired,
+// };
 
 export default ImageGallery;
