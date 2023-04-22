@@ -34,21 +34,21 @@ class App extends Component {
       }
     }
 
-    // if (prevState.page !== this.state.page) {
-    //   try {
-    //     this.setState({ isLoading: true });
-    //     fetchImagesWithQuery(this.state.searchQuery, this.state.page).then(
-    //       data => {
-    //         this.setState(prevState => ({
-    //           data: [...prevState.data, ...data],
-    //           isLoading: false,
-    //         }));
-    //       }
-    //     );
-    //   } catch (error) {
-    //     console.log(error);
-    //   }
-    // }
+    if (prevState.page !== this.state.page) {
+      try {
+        this.setState({ isLoading: true });
+        fetchImagesWithQuery(this.state.searchQuery, this.state.page).then(
+          data => {
+            this.setState(prevState => ({
+              data: [...prevState.data, ...data],
+              isLoading: false,
+            }));
+          }
+        );
+      } catch (error) {
+        console.log(error);
+      }
+    }
   }
 
   handleModalClick = largeImageURL => {
