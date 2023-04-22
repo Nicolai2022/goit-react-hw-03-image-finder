@@ -14,7 +14,7 @@ export const Button = styled.button`
   line-height: 1.2;
   font-style: normal;
   font-weight: 500;
-  background-color: #333001;
+  background-color: #323101;
   color: #457622;
 
   box-shadow: 0px 1px 3px 0px rgba(538, 733, 443, 0.2),
@@ -24,6 +24,6 @@ export const Button = styled.button`
   &:focus {
     background-color: #346564;
     border: 1px solid #145568;
-    color: #862343;
+    color: #872345;
   }
 `;

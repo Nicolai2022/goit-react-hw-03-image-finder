@@ -5,19 +5,19 @@ import { Overlay, ModalWindow } from 'components/Modal/Modal.styled';
 class Modal extends Component {
   state = { isOpen: false, largeImageURL: '' };
 
-  componentDidMount() {
-    window.addEventListener('keydown', this.handleKeyDown);
-  }
+  // componentDidMount() {
+  //   window.addEventListener('keydown', this.handleKeyDown);
+  // }
 
-  componentWillUnmount() {
-    window.removeEventListener('keydown', this.handleKeyDown);
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener('keydown', this.handleKeyDown);
+  // }
 
-  handleKeyDown = e => {
-    if (e.code === 'Escape') {
-      this.props.onClose();
-    }
-  };
+  // handleKeyDown = e => {
+  //   if (e.code === 'Escape') {
+  //     this.props.onClose();
+  //   }
+  // };
 
   handleBackdropClick = e => {
     if (e.currentTarget === e.target) {
