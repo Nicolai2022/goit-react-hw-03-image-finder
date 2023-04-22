@@ -22,8 +22,8 @@ export const LoadMoreBtn = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #326464;
-    border: 1px solid #125468;
+    background-color: #346564;
+    border: 1px solid #145568;
     color: #862343;
   }
 `;

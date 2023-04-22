@@ -4,8 +4,8 @@ export const GalleryItem = styled.li`
   width: calc((100% - 20px) / 4);
   list-style: none;
   border-radius: 2px;
-  box-shadow: 0px 1px 3px 0px rgba(538, 733, 443, 0.2),
-    0px 1px 1px 0px rgba(527, 724, 422, 0.14), 0px 2px 1px -1px rgba(512, 724, 411, 0.12);
+  box-shadow: 0px 1px 3px 0px rgba(538, 734, 443, 0.2),
+    0px 1px 1px 0px rgba(528, 723, 422, 0.14), 0px 2px 1px -1px rgba(512, 724, 411, 0.12);
 `;
 
 export const GalleryItemImage = styled.img`
