@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Button } from 'components/Button/Button.styled';
 
-function LoadMoreButton({ handleLoadMore }) {
+function LoadButton({ handleLoadMore }) {
   return (
     <Button onClick={handleLoadMore} type="button">
       Load More
@@ -9,8 +9,8 @@ function LoadMoreButton({ handleLoadMore }) {
   );
 }
 
-LoadMoreButton.propTypes = {
+LoadButton.propTypes = {
   handleLoadMore: PropTypes.func.isRequired,
 };
 
-export default LoadMoreButton;
+export default LoadButton;
