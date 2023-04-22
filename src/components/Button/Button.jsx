@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
-import { LoadMoreBtn } from 'components/LoadMoreBtn/LoadMoreBtn.styled';
+import { Button } from 'components/Button/Button.styled';
 
 function LoadMoreButton({ handleLoadMore }) {
   return (
-    <LoadMoreBtn onClick={handleLoadMore} type="button">
+    <Button onClick={handleLoadMore} type="button">
       Load More
-    </LoadMoreBtn>
+    </Button>
   );
 }
 

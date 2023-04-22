@@ -6,7 +6,7 @@ import { fetchImagesWithQuery } from '../../services/api';
 import {
   Searchbar,
   ImageGallery,
-  LoadMoreButton,
+  Button,
   Modal,
   Loader,
 } from 'components/index';
@@ -77,7 +77,7 @@ class App extends Component {
         />
         {this.state.isLoading && <Loader />}
         {this.state.data.length > 0 ? (
-          <LoadMoreButton handleLoadMore={this.handleLoadMore} />
+          <Button handleLoadMore={this.handleLoadMore} />
         ) : null}
         {this.state.isOpen && (
           <Modal
